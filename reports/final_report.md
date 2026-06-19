@@ -1,105 +1,95 @@
-# RetailPulse AI Retail Analytics Platform
+# RetailPulse Retail Analytics Project
+
+## Project Overview
+
+RetailPulse is an end-to-end retail analytics solution developed using Python.
+
+The project includes:
+
+- Customer Segmentation
+- Revenue Forecasting
+- Churn Prediction
+- Interactive Dashboard
+
+---
 
 ## Dataset
 
 Online Retail Dataset
 
-Total Transactions: 401,604
-
----
-
-## Data Cleaning
-
-- Removed missing CustomerID
-- Removed missing Description
-- Removed duplicate records
-- Created Revenue column
-
----
-
-## Exploratory Data Analysis
-
-### Findings
-
-- Revenue increases towards the end of the year
-- Strong sales growth from September-November
-- Some customers generate significantly higher revenue
-
----
-
-## RFM Analysis
-
-Features:
-
-- Recency
-- Frequency
-- Monetary Value
-
-Insights:
-
-- Identified high-value customers
-- Identified inactive customers
+Transactions:
+- 500,000+ records
+- Customers from multiple countries
 
 ---
 
 ## Customer Segmentation
 
-Algorithms Used:
+RFM Analysis was used:
 
-- KMeans
-- DBSCAN
+- Recency
+- Frequency
+- Monetary
 
-Insights:
-
-- Loyal customers
-- Regular customers
-- Low-value customers
+K-Means clustering generated customer groups.
 
 ---
 
-## Time Series Analysis
+## Revenue Forecasting
 
-Prepared daily sales data
+Facebook Prophet model was trained on daily revenue.
 
-Observed:
-
-- Seasonal patterns
-- Revenue growth trend
+Forecast Horizon:
+- 30 Days
 
 ---
 
-## Prophet Forecasting
+## Churn Prediction
 
-Created baseline demand forecast
+A churn label was created using:
 
-Findings:
+DaysSinceLastPurchase > 90
 
-- Revenue expected to continue growing
-- Seasonal fluctuations observed
+Model:
+- Random Forest Classifier
 
----
-
-## LSTM Forecasting
-
-Deep learning forecasting model built using PyTorch
-
-Model Saved:
-
-models/lstm_model.pth
+Features:
+- Recency
+- Frequency
+- Monetary
 
 ---
 
-## Conclusion
+## Dashboard
 
-RetailPulse successfully performs:
+Streamlit dashboard provides:
 
-- Data Cleaning
-- Customer Segmentation
-- Revenue Forecasting
-- Business Analytics
+- Revenue KPIs
+- Daily Revenue Trend
+- Customer Segments
+- Forecast Visualization
 
-Future Improvements:
+---
 
-- Real-time dashboard
-- Inventory forecasting
-- Recommendation engine
+## Results
+
+Total Revenue:
+$8.27M
+
+Average Daily Revenue:
+$27.14K
+
+Customers:
+4372
+
+---
+
+## Technologies
+
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Prophet
+- SHAP
+- Streamlit
