@@ -93,3 +93,25 @@ Customers:
 - Prophet
 - SHAP
 - Streamlit
+
+# Business Recommendations
+
+## Sales Forecasting
+
+- Increase stock before forecasted demand spikes.
+- Prepare marketing campaigns during seasonal peaks.
+
+## Customer Churn
+
+- Customers with high recency are likely to churn.
+- Launch retention campaigns for inactive customers.
+
+## Inventory Optimization
+
+- Maintain safety stock for top-selling products.
+- Reduce inventory for slow-moving products.
+
+## Dashboard
+
+- Monitor KPIs daily.
+- Track customer segments monthly.

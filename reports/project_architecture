@@ -1,0 +1,19 @@
+Raw Data
+   ↓
+Cleaning
+   ↓
+EDA
+   ↓
+RFM Analysis
+   ↓
+Customer Segmentation
+   ↓
+Time Series Preparation
+   ↓
+Prophet Forecasting
+   ↓
+Churn Prediction
+   ↓
+Inventory Optimization
+   ↓
+Dashboard
