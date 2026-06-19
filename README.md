@@ -1,26 +1,41 @@
 # RetailPulse
 
-AI-Powered Customer Analytics & Demand Forecasting Platform
+AI-Powered Retail Analytics Platform
 
-## Week 1 Progress
+## Features
 
-- Environment Setup
-- Dataset Collection
-- Data Understanding
-- Missing Value Analysis
-- Duplicate Analysis
-- Revenue Feature Engineering
-- Initial Visualizations
+- Data Cleaning & Validation
+- Exploratory Data Analysis
+- RFM Customer Analysis
+- Customer Segmentation using K-Means
+- Sales Forecasting using Prophet
+- Customer Churn Prediction
+- Interactive Streamlit Dashboard
 
-## Tools Used
+## Tech Stack
 
 - Python
 - Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+- Scikit-Learn
+- Prophet
+- Streamlit
+- Plotly
 
-## Status
+## Results
 
-Week 1 In Progress 
+### Revenue Forecasting
+Forecast next 30 days of revenue.
+
+### Customer Segmentation
+Identified customer groups using clustering.
+
+### Churn Prediction
+Predicted inactive customers using machine learning.
+
+## Dashboard
+
+Run:
+
+```bash
+streamlit run dashboard/app.py
+```
